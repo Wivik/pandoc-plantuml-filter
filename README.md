@@ -38,4 +38,4 @@ Use the code markup with `plantuml` type, and paste the PlantUML content. You do
 
 Example : 
 
-[Integration example](integration.png)
+![Integration example](integration.png)
