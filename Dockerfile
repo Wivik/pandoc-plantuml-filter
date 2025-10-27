@@ -1,4 +1,4 @@
-FROM pandoc/extra:3.7.0.2-ubuntu
+FROM pandoc/extra:3.8.2.1-ubuntu
 
 RUN apt-get update && apt-get install default-jre graphviz plantuml -y && apt-get clean autoclean && apt-get autoremove --yes && rm -rf /var/lib/{apt,dpkg,cache,log}/
 
